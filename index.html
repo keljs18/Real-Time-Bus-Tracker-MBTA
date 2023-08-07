@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Bus Tracker</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+<script src="bus-stops.js" async></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="map"></div>
+<div class="toggleBusStops top"> 
+  <button onclick="toggleStopMarkers()"> 
+    Show stops between MIT and Harvard
+  </button>
+</div>
+<div class="refreshButton top">
+  <button onclick="refreshBusLocation()">
+    Display live bus locations
+  </button>
+</div>
+<details>
+    <summary>Legend</summary>
+    Bus markers are <span class="busColor"></span> <br>
+    Stop markers are <span class="stopColor"></span>
+  </details>
+<script>
+</script>
+</body>
+</html>
