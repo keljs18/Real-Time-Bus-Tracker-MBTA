@@ -1,4 +1,4 @@
-# Real Time Bus Tracker MBTA\
+# Real Time Bus Tracker MBTA
 
 Real time bus tracking application for the MBTA Route One MIT-Harvard using the MBTA API, utilizing Mapbox to map and mark the live bus locations.
 
